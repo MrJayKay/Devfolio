@@ -1,18 +1,16 @@
-This is my developer porfolio project.
-
-Currently under construction. an ongoing project.
+ Free Code Camp Personal Portfolio Website Project
 
 
+In this Free Code Camp Project I built a simple personal developer portfolio website. 
 
+This project was the last project required to earn the certificate for the 300 hour course on responsive web design. 
 
-To do list:
+During this project in incorperated much of what I had learnt from the previous projects I completed whilst being enrolled in this course.
 
-- nav bar
-- social icons
-- skills set and languages
-- media
-- projects
-- contact me
-- footer
-- animaions
-- event listening
+Some features I would like to change;
+
+- Update the website with my real project.
+- Add javascript to make the website more interactive.
+- Change styles.
+- update social media links to allow visitors to be redirected to my social media profiles.
+- add more pages to the website to showcase my skills, abilities and all projects.
