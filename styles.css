@@ -1,12 +1,10 @@
 /* Custom properties/variables  */
 :root {
-    --main-body: #ffffff;
-    --main-nav: #0100299c;
-    --main-red: #ff0202;
-    --main-blue: #004cff;
-    --main-green: #00ff0d;
-    --main-orange: #ffa600;
-    --main-purple: #9900ff;
+    --main-white: #f0f0f0;
+    --main-blue: #45567d;
+    --main-black: #3e3f42;
+    --main-gray: #828388;
+    --main-green: #5cb376;
 }
 
 /* Base reset */
@@ -77,7 +75,8 @@ body {
     /* 18px */
     font-weight: 400;
     line-height: 1.4;
-    color: var(--main-body);
+    color: var(--main-black);
+    background-color: var(--main-blue);
 }
 
 h1,
@@ -101,7 +100,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: var(--main-red);
+    color: var(--main-white);
 }
 
 img {
@@ -118,7 +117,7 @@ img {
     top: 0;
     left: 0;
     width: 100%;
-    background: var(--main-nav);
+    background: var(--main-black);
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
     z-index: 10;
 }
@@ -165,7 +164,7 @@ img {
     font-size: 5rem;
     font-weight: 900;
     font-style: italic;
-    color: var(--main-blue);
+    color: var(--main-blue2);
 }
 
 
@@ -200,13 +199,13 @@ img {
 .projects-section {
     text-align: center;
     padding: 10rem 2rem;
-    background: var(--main-green);
+    background: var(--main-black);
 }
 
 .projects-section-header {
     max-width: 640px;
     margin: 0 auto 6rem auto;
-    border-bottom: 0.4rem solid var(--main-red);
+    border-bottom: 0.4rem solid var(--main-black);
 }
 
 @media (max-width: 28.75em) {
@@ -237,13 +236,13 @@ img {
 }
 
 .project {
-    background: var(--main-orange);
+    background: var(--main-gray);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     border-radius: 2px;
 }
 
 .code {
-    color: var(--main-orange);
+    color: var(--main-gray);
     transition: color 0.3s ease-out;
 }
 
@@ -270,12 +269,12 @@ img {
 
 .btn-show-all {
     font-size: 2rem;
-    background: var(--main-orange);
+    background: var(--main-gray);
     transition: background 0.3s ease-out;
 }
 
 .btn-show-all:hover {
-    background: var(--main-blue);
+    background: var(--main-blue2);
 }
 
 .btn-show-all:hover>i {
@@ -287,20 +286,18 @@ img {
     transform: translateX(0);
     transition: transform 0.3s ease-out;
 }
-
 body {
     margin: 0;
     min-height: 100vh;
     display: grid;
     place-items: center;
-    background: hsl(255, 40%, 8%);
+
 }
 
 img {
     max-width: 100%;
 }
 
-/* Diamond grid */
 .gallery {
     --img-size: calc(100px - .5rem / 2);
     display: grid;
@@ -351,7 +348,6 @@ img {
         z-index: 10;
     }
 }
-
 /* Contact section */
 
 .contact-section {
@@ -363,7 +359,7 @@ img {
     width: 100%;
     height: 80vh;
     padding: 0 2rem;
-    background: var(--main-orange);
+    background: var(--main-gray);
 }
 
 .contact-section-header>h2 {
@@ -406,8 +402,8 @@ footer {
     display: flex;
     justify-content: space-evenly;
     padding: 2rem;
-    background: var(--main-orange);
-    border-top: 4px solid var(--main-orange);
+    background: var(--main-blue);
+    border-top: 4px solid var(--main-blue);
 }
 
 footer>p {
